@@ -9,7 +9,7 @@
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
 
           <nav class="nav">
-            {% for nav in site.nav %}
+            {% for nav in site.data.navigation %}
             <small
               ><a href="{{ site.baseurl }}{{ nav.url }}"
                 >{{ nav.title }}</a
