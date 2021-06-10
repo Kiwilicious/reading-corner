@@ -1,8 +1,8 @@
 # Setup
 title: Reading Corner
-url: https://kiwilicious.github.io/reading-corner
+url: https://kiwilicious.github.io
 baseurl: /reading-corner
-paginate_path: "/reading-corner/page:num/"
+paginate_path: "/page:num/"
 paginate: 1
 permalink: pretty
 
