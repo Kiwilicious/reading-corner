@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Episode 37 - Eccentric King
+title: "Episode 37 - Eccentric King"
 ---
 
 After dropping Tina off, the carriage proceeded to the royal palace with me onboard.
