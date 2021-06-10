@@ -1,8 +1,8 @@
 # Setup
-title: Dark Poole
-url: https://getpoole.com
+title: Reading Corner
+url: https://kiwilicious.github.io/reading-corner
 paginate: 1
-baseurl: ""
+baseurl: /reading-corner
 permalink: pretty
 
 # Gems
@@ -32,9 +32,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: James Hwang
+  url: https://kiwilicious.github.io
+  email: jhwang137@gmail.com
 
 # Custom vars
 version: 3.0.0
