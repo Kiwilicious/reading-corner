@@ -2,7 +2,7 @@
 title: Reading Corner
 url: https://kiwilicious.github.io/reading-corner
 paginate: 1
-baseurl: /reading-corner
+baseurl: ""
 permalink: pretty
 
 # Gems
