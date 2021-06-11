@@ -8,7 +8,7 @@ title: Series
 <h3>{{ cat[0] | split: "-" | join: " " | capitalize }}</h3>
 <ul>
   {% for post in cat[1] %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
 {% endfor %}
