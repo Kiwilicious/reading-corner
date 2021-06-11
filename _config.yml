@@ -26,11 +26,6 @@ sass:
   sass_dir: _sass
   style: :compressed
 
-# Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-ga_analytics: G-CY47977HYH
-
 # Specify the author for blog posts
 author:
   name: James Hwang
