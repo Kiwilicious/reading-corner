@@ -4,23 +4,19 @@
 // there are no more previous or next posts to show.
 
 .pagination {
-  display: flex;
-  margin: 0 -1.5rem var(--spacer);
   color: grey;
+  display: flex;
+  justify-content: space-around;
   text-align: center;
 }
 
 // Pagination items can be `span`s or `a`s
 .pagination-item {
+  border: solid var(--border-color);
+  border-width: 1px 0;
   display: block;
   padding: var(--spacer);
   text-decoration: none;
-  border: solid var(--border-color);
-  border-width: 1px 0;
-
-  &:first-child {
-    margin-bottom: -1px;
-  }
 }
 
 // Only provide a hover state for linked pagination items
@@ -34,19 +30,19 @@ a.pagination-item:hover {
   }
 
   .pagination-item {
+    border-width: 1px;
     float: left;
     width: 50%;
-    border-width: 1px;
 
     &:first-child {
-      margin-bottom: 0;
-      border-top-left-radius: var(--border-radius);
       border-bottom-left-radius: var(--border-radius);
+      border-top-left-radius: var(--border-radius);
+      margin-bottom: 0;
     }
     &:last-child {
-      margin-left: -1px;
-      border-top-right-radius: var(--border-radius);
       border-bottom-right-radius: var(--border-radius);
+      border-top-right-radius: var(--border-radius);
+      margin-left: -1px;
     }
   }
 }

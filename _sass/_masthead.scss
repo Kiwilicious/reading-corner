@@ -3,9 +3,9 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
-  padding-top: var(--spacer);
-  padding-bottom: var(--spacer);
   margin-bottom: var(--spacer-3);
+  padding-bottom: var(--spacer);
+  padding-top: var(--spacer);
 }
 
 .masthead-title {
@@ -26,5 +26,11 @@
 .nav {
   float: right;
   line-height: 1.25rem;
-  word-spacing: 1rem;
+  word-spacing: 0.5rem;
+}
+
+@media (min-width: 30em) {
+  .nav {
+    word-spacing: 1rem;
+  }
 }
