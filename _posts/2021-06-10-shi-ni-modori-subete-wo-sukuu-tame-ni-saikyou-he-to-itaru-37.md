@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Episode 37 - Eccentric King"
+excerpt_separator: <!--more-->
 ---
 
 After dropping Tina off, the carriage proceeded to the royal palace with me onboard.
@@ -12,6 +13,8 @@ Jere-san said in consideration of me, probably because of the long journey we'd 
 After a few minutes, we arrived in front of the royal palace. As I expected, the palace was huge. So large in fact, I couldn't see the peak of the building from my position.
 
 「Now then, we will be getting off the carriage and entering the palace. Follow me」
+
+<!--more-->
 
 Said Jere-san as he got out of the carriage. I followed suit behind him.
 

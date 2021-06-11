@@ -3,6 +3,10 @@ layout: page
 title: About
 ---
 
-Made by me,
+Made with Jekyll and Dark Poole.
+
+Hosted on Github Pages.
+
+Translated in tears.
 
 Thanks for reading!
