@@ -4,8 +4,8 @@
 
   <title>
     {% if page.title == "Home" %} {{ site.title }}{% if site.tagline %} &middot;
-    {{ site.tagline }}{% endif %} {% else %} {{ page.title }} &middot; {{
-    site.title }} {% endif %}
+    {{ site.tagline }}{% endif %} {% else %} {{ site.title }} | {{ page.title }}
+    {% endif %}
   </title>
 
   <link rel="stylesheet" href="{{ 'styles.css' | relative_url }}" />
