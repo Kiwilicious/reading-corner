@@ -103,8 +103,9 @@ a[href^="#fn:"],
 // Back to footnote link
 a[href^="#fnref:"] {
   display: inline-block;
-  margin-left: 0.1rem;
   font-weight: bold;
+  margin-left: 0.1rem;
+  text-decoration: none;
 }
 
 // List of footnotes

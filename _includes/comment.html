@@ -1,0 +1,20 @@
+<!-- prettier-ignore -->
+{% assign dirPath = page.categories[0] | append: "-" | append: page.slug %}
+{% assign comments = site.data.comments[dirPath] %}
+{% for commentHash in comments %}
+
+{% assign comment = commentHash[1] %}
+
+<div class="comment-container">
+  <img
+    alt="gravatar-profile-image"
+    src="https://www.gravatar.com/avatar/{{ comment.email }}?s=50&d=identicon&r=g"
+  />
+  <div class="comment-info">
+    <p class="comment-name">{{ comment.name }}</p>
+    <p class="comment-date">{{ comment.date | date: "%d %b %Y @ %H:%M" }}</p>
+  </div>
+  <p class="comment-message">{{ comment.message }}</p>
+</div>
+
+{% endfor %}
