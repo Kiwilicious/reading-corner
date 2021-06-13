@@ -1,7 +1,10 @@
 ---
 layout: default
-title: Series
 ---
+
+# Series
+
+Browse all posts by series.
 
 {% for cat in site.categories %}
 

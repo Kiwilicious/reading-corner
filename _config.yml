@@ -2,8 +2,8 @@
 title: Reading Corner
 url: https://kiwilicious.github.io
 baseurl: /reading-corner
-paginate_path: "/page:num/"
-paginate: 1
+paginate_path: "/page/:num/"
+paginate: 3
 permalink: pretty
 
 # Gems

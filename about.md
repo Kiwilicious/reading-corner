@@ -1,7 +1,8 @@
 ---
-layout: page
-title: About
+layout: default
 ---
+
+# About
 
 Made with Jekyll and Dark Poole.
 
