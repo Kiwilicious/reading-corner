@@ -4,7 +4,7 @@ url: https://kiwilicious.github.io
 baseurl: /reading-corner
 paginate_path: "/page/:num/"
 paginate: 3
-permalink: pretty
+permalink: /:categories-:title
 
 # Gems
 plugins:
