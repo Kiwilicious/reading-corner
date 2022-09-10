@@ -23,6 +23,7 @@
 }
 
 .comment-button {
+  margin-bottom: var(--spacer);
   cursor: pointer;
   font-size: var(--body-font-size);
 }
@@ -54,6 +55,11 @@
     margin: var(--spacer) 0;
     width: 100%;
   }
+}
+
+fieldset {
+  border: none;
+  padding: 0;
 }
 
 @media (min-width: 30em) {

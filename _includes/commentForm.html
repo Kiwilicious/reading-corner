@@ -5,52 +5,63 @@
 >
   <h2>Leave a comment</h2>
 
-  <input
-    name="options[redirect]"
-    type="hidden"
-    value="{{ site.url }}{{ site.baseurl }}{{ page.url }}"
-  />
-  <input name="options[category]" type="hidden" value="{{ page.categories }}" />
-  <input name="options[slug]" type="hidden" value="{{ page.slug }}" />
+  <fieldset disabled>
+    <input
+      name="options[redirect]"
+      type="hidden"
+      value="{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+    />
+    <input
+      name="options[category]"
+      type="hidden"
+      value="{{ page.categories }}"
+    />
+    <input name="options[slug]" type="hidden" value="{{ page.slug }}" />
 
-  <div class="comment-input-container">
-    <label for="comment-name-input"> Name </label>
-    <input
-      id="comment-name-input"
-      name="fields[name]"
-      placeholder="Name (required)"
-      required
-      type="text"
-    />
-  </div>
-  <div class="comment-input-container">
-    <label for="comment-email-input"> Email * </label>
-    <input
-      id="comment-email-input"
-      name="fields[email]"
-      placeholder="Email (required)"
-      required
-      type="email"
-    />
-  </div>
-  <div class="comment-input-container comment-textarea-container">
-    <label for="comment-textarea"> Comment </label>
-    <textarea
-      id="comment-textarea"
-      name="fields[message]"
-      placeholder="Add to the discussion"
-      required
-      rows="5"
-    ></textarea>
-  </div>
+    <div class="comment-input-container">
+      <label for="comment-name-input"> Name </label>
+      <input
+        id="comment-name-input"
+        name="fields[name]"
+        placeholder="Name (required)"
+        required
+        type="text"
+      />
+    </div>
+    <div class="comment-input-container">
+      <label for="comment-email-input"> Email * </label>
+      <input
+        id="comment-email-input"
+        name="fields[email]"
+        placeholder="Email (required)"
+        required
+        type="email"
+      />
+    </div>
+    <div class="comment-input-container comment-textarea-container">
+      <label for="comment-textarea"> Comment </label>
+      <textarea
+        id="comment-textarea"
+        name="fields[message]"
+        placeholder="Add to the discussion"
+        required
+        rows="5"
+      ></textarea>
+    </div>
+
+    <p class="message">
+      It might take a while and the page will reload after submission. Comments
+      are reviewed before posting.
+    </p>
+    <p>
+      * Used for <a href="http://en.gravatar.com/" target="_blank">Gravatar</a>
+    </p>
+
+    <button class="comment-button" type="submit">Submit</button>
+  </fieldset>
 
   <p class="message">
-    It might take a while and the page will reload after submission. Comments
-    are reviewed before posting.
+    Comments have been disabled due to spam. Might look into a solution if I
+    start translating again.
   </p>
-  <p>
-    * Used for <a href="http://en.gravatar.com/" target="_blank">Gravatar</a>
-  </p>
-
-  <button class="comment-button" type="submit">Submit</button>
 </form>
