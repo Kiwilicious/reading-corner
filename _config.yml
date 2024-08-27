@@ -34,3 +34,10 @@ author:
 
 # Custom vars
 version: 3.0.0
+
+defaults:
+  - scope:
+      path: "*/_posts/*"
+      type: "posts"
+    values:
+      layout: "post"
